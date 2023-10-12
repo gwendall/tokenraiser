@@ -2,17 +2,17 @@
 /* eslint-disable @typescript-eslint/indent */
 import { Chain, mainnet } from 'wagmi/chains';
 
+export type Builder = {
+    name: string;
+    link: string;
+};
+
 export type Initiative = {
     title: string;
     link: string;
     description: string;
     image: string;
-    builders: string[];
-};
-
-export type Creator = {
-    name: string;
-    link: string;
+    builders: Builder[];
 };
 
 export type Income = {
@@ -51,7 +51,7 @@ export type FundraisingData = {
     story: string;
     initiatives: Initiative[];
     metadata: Metadata;
-    creators: Creator[];
+    creators: Builder[];
     incomes: Income[];
     purchases: Purchase[];
 };
@@ -71,46 +71,64 @@ const appData: FundraisingData = {
             title: 'Recovery wallet',
             link: 'https://etherscan.io/address/0xd7da0ae98f7a1da7c3318c32e78a1013c00df935',
             description: 'Make a direct donation to this wallet setup by the community. The proceeds will be used to buy the punk back.',
-            image: '/wallet.png',
+            image: '/initiatives/wallet.png',
             builders: [
-                'ross_dallbricht',
+                {
+                    name: 'ross_dallbricht',
+                    link: 'https://twitter.com/ross_dallbricht',
+                },
             ],
         },
         {
             title: 'NovoPixels',
             link: 'https://novopixels.com',
             description: "Mint a unique pixel of Novo\\'s punk. 24x24 tokens, 100% on-chain, randomly assigned. The proceeds will be sent to the recovery wallet.",
-            image: '/novopixels.gif',
+            image: '/initiatives/novopixels.gif',
             builders: [
-                'gwendall',
-                'franknft_eth',
+                {
+                    name: 'gwendall',
+                    link: 'https://twitter.com/gwendall',
+                },
+                {
+                    name: 'franknft_eth',
+                    link: 'https://twitter.com/franknft_eth',
+                },
             ],
         },
         {
             title: 'GoFundNovo',
             link: 'https://www.desiena.ch/gofundnovo',
             description: "Mint a token redeemable for a future piece of art based on Novo\\'s punk. 2,000 tokens. The proceeds will be sent to the recovery wallet.",
-            image: '/gofundnovo.png',
+            image: '/initiatives/gofundnovo.png',
             builders: [
-                'Dario_Desiena',
+                {
+                    name: 'Dario_Desiena',
+                    link: 'https://twitter.com/Dario_Desiena',
+                },
             ],
         },
         {
             title: 'Be careful what you click!',
             link: 'https://app.manifold.xyz/c/cryptonovofundraiser',
             description: 'Mint a playful GIF based on the unfortunate event that happened to Novo. 3,706 tokens. The proceeds will be sent to the recovery wallet.',
-            image: '/becareful.gif',
+            image: '/initiatives/becareful.gif',
             builders: [
-                'punk6987',
+                {
+                    name: 'punk6987',
+                    link: 'https://twitter.com/punk6987',
+                },
             ],
         },
         {
             title: 'OnChainNovo',
             link: 'https://opensea.io/collection/onchainnovo',
             description: "Trade a derivative of Novo\\'s punk. 311 tokens, 100% on-chain. The royalties will be sent to the recovery wallet.",
-            image: '/onchainnovo.png',
+            image: '/initiatives/onchainnovo.png',
             builders: [
-                'hashtagzmedia',
+                {
+                    name: 'hashtagzmedia',
+                    link: 'https://twitter.com/hashtagzmedia',
+                },
             ],
         },
     ],

@@ -117,9 +117,9 @@ export default function LandingPage() {
 }>
           <Progress value={ progress }>
             {
-progress > 0.18 ? (
-            <div>{ formatAmount(progress * 100, 0)}% complete</div>
-            ) : null
+ progress > 0.18 ? (
+             <div>{ formatAmount(progress * 100, 0)}% complete</div>
+            ) : null 
 }
           </Progress>
             {
@@ -192,9 +192,9 @@ progress < 0.18 ? (
                     <span style={ { marginRight: 8 } }>Made by</span>
                     {
                       builders.map((builder, index) => (
-                        <React.Fragment key={ `builder-${builder}-${index}` }>
-                          <ExternalLink href={ `https://twitter.com/${builder}` } style={ { display:'inline-block' } }>
-                            <div>{builder}</div>
+                        <React.Fragment key={ `builder-${title}-${builder.name}-${index}` }>
+                          <ExternalLink href={ builder.link } style={ { display:'inline-block' } }>
+                            <div>{builder.name}</div>
                           </ExternalLink>
                           {index < builders.length - 1 ? <span style={ { marginLeft: 5, marginRight: 5 } }>&</span> : null}
                         </React.Fragment>
