@@ -7,7 +7,7 @@ You can view a live demo on [tokenraiser.xyz](https://tokenraiser.xyz).
 
 ## How it works
 
-TokenRaiser is a page allowing you to track the ETH balance of various wallets & contracts and compare them to a target funding goal, to show the funding progress relative to a given deadline. It allows to gather multiple parallel initiatives towards a common goal, and to create a sense of unity & emergency towards a cause.
+TokenRaiser is a page allowing you to coordinate & track the ETH balances of multiple wallets & contracts, and compare them to a target funding goal in order to show the funding progress relative to a given deadline. It enables to gather multiple parallel initiatives towards a common goal, to create a sense of unity & emergency towards a cause. It also allows to provide details (title, description, link, builders identities) of the various projects serving this cause.
 
 ## How to use it
 1. 🍴 **Fork it**: Begin by forking this repository to create your rendition.
