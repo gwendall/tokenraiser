@@ -1,6 +1,6 @@
 # TokenRaiser
 
-TokenRaiser is an open-source project designed to create a fundraising page through tokens. This encompasses direct token donations and NFT mints. The project is an opensource version of the website [savenovo.com](https://savenovo.com).
+TokenRaiser is an open-source project designed to create a fundraising page through tokens. This encompasses direct token donations and NFT mints. The project is an opensource & modular version of the website [savenovo.com](https://savenovo.com).
 
 You can view a live demo on [tokenraiser.vercel.app](https://tokenraiser.vercel.app/).
 
