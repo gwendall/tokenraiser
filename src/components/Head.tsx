@@ -65,14 +65,14 @@ export default function Head({
       <meta name="viewport" content={ viewportContent } />
       <meta name="theme-color" content="#000000" />
       {
-twitter ? (
-        <>
-          <meta data-rh="true" name="twitter:card" content="summary_large_image" />
-          <meta data-rh="true" name="twitter:site" content={ `@${twitter}` } />
-          <meta data-rh="true" name="twitter:creator" content={ `@${twitter}` } />      
-        </>
-      ) : null
-}
+        twitter ? (
+          <>
+            <meta data-rh="true" name="twitter:card" content="summary_large_image" />
+            <meta data-rh="true" name="twitter:site" content={ `@${twitter}` } />
+            <meta data-rh="true" name="twitter:creator" content={ `@${twitter}` } />      
+          </>
+        ) : null
+      }
     </NextHead>
   );
 }
