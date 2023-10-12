@@ -117,7 +117,7 @@ const appData: FundraisingData = {
     metadata: {
         title: 'TokenRaiser',
         description: "Raise tokens for a good cause",
-        image: 'https://tokenraiser.xyz/logo.png',
+        image: 'https://tokenraiser.xyz/banner.png',
         url: 'https://tokenraiser.xyz',
         siteName: 'tokenraiser.xyz',
         type: 'profile',
