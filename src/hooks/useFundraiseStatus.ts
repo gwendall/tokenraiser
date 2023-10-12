@@ -2,7 +2,8 @@ import { useQueries } from 'react-query';
 import { formatEther } from 'viem';
 import { EthereumAddress } from '~/utils';
 import viemClient from '~/utils/viemClient';
-import data, { Income } from '~/data';
+import data from '~/data';
+import { Income } from '~/types';
 
 export default function useFundraiseStatus() {
     const result = useQueries(data.incomes.map(({
