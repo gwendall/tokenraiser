@@ -1,3 +1,4 @@
+![tokenraiser](https://github.com/gwendall/tokenraiser/blob/main/public/banner.png?raw=true)
 # TokenRaiser
 
 TokenRaiser is an open-source project designed to create a fundraising page through tokens. This encompasses direct token donations and NFT mints. The project is an opensource & modular version of the website [savenovo.com](https://savenovo.com).
