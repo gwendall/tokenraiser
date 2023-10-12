@@ -1,62 +1,9 @@
 /* eslint-disable max-len */
 /* eslint-disable @typescript-eslint/indent */
-import { Chain, mainnet } from 'wagmi/chains';
+import { mainnet } from 'wagmi/chains';
+import { TokenRaiserData } from './types';
 
-export type Builder = {
-    name: string;
-    link: string;
-};
-
-export type Initiative = {
-    title: string;
-    link: string;
-    description: string;
-    image: string;
-    builders: Builder[];
-};
-
-export type Income = {
-    name: string;
-    contract: string;
-    balance?: number;
-    link?: string;
-};
-
-export type Purchase = {
-    name: string;
-    link: string;
-    tx: string;
-    amount: number;
-};
-
-export type Metadata = {
-    title: string;
-    description: string;
-    image: string;
-    url: string;
-    siteName: string;
-    type: string;
-    twitter: string;
-};
-
-export type FundraisingData = {
-    activeChain: Chain;
-    title: string;
-    description: string;
-    tagline: string;
-    image: string;
-    fundraiseGoal: number;
-    initialCommitments: number;
-    deadline: string;
-    story: string;
-    initiatives: Initiative[];
-    metadata: Metadata;
-    creators: Builder[];
-    incomes: Income[];
-    purchases: Purchase[];
-};
-
-const appData: FundraisingData = {
+const appData: TokenRaiserData = {
     activeChain: mainnet,
     title: 'TokenRaiser',
     description: 'Raise tokens for a good cause',
