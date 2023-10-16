@@ -111,12 +111,12 @@ const appData: TokenRaiserData = {
         },
     ],
     purchases: [
-        {
-            name: 'Punk #3706 (we bought it back!)',
-            link: 'https://twitter.com/cryptopunksbot/status/1613199688877891584',
-            tx: '0xaddb78a3dff8b9499c0f374bb320763e0da8a35bc4405dcff9bfbd0cc6dd8ccf',
-            amount: 76.5,
-        },
+        // {
+        //     name: 'Punk #3706 (we bought it back!)',
+        //     link: 'https://twitter.com/cryptopunksbot/status/1613199688877891584',
+        //     tx: '0xaddb78a3dff8b9499c0f374bb320763e0da8a35bc4405dcff9bfbd0cc6dd8ccf',
+        //     amount: 76.5,
+        // },
     ],
 };
 
