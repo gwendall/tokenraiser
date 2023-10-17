@@ -31,7 +31,7 @@ export default function LandingPage() {
     },
   );
   React.useEffect(() => {
-    // if (isRaiseComplete) playSound();
+    if (isRaiseComplete) playSound();
   }, [isRaiseComplete, playSound]);
   return (
     <>
