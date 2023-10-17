@@ -26,7 +26,7 @@ Here's an overview of the parameters in the [`src/data.ts`](./src/data.ts) file:
 | `description`        | Brief description of the fundraiser.                                |
 | `tagline`            | Short catchy phrase for your campaign.                              |
 | `image`              | Image/banner representing your campaign.                            |
-| `story`              | The background or narrative of your fundraiser.                     |
+| `story`              | The background or narrative of your fundraiser (in markdown).                     |
 | `fundraiseGoal`      | Goal amount you aim to achieve through the fundraiser.              |
 | `initialCommitments` | Initial amount committed to the fundraiser.                         |
 | `deadline`           | Deadline date and time for the fundraiser.                          |
