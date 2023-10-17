@@ -12,12 +12,12 @@ TokenRaiser is a page allowing you to coordinate & track the ETH balances of mul
 ## How to use it
 1. 🍴 **Fork it**: Begin by forking this repository to create your rendition.
 
-2. 🔧 **Tweak it**: Modify the parameters in the `src/data.ts` file to suit your fundraiser's specifics.
+2. 🔧 **Tweak it**: Modify the parameters in the [`src/data.ts`](./src/data.ts) file to suit your fundraiser's specifics.
 
 3. 🚀 **Deploy it**: Conclusively, launch your tailored fundraising page using Vercel.
 
 ## Configuration Parameters
-Here's an overview of the parameters in the `src/data.ts` file:
+Here's an overview of the parameters in the [`src/data.ts`](./src/data.ts) file:
 
 | Parameter            | Description                                                         |
 |----------------------|---------------------------------------------------------------------|
